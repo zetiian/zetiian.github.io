@@ -181,7 +181,7 @@ body *{
     width: 100%;
     height: 655px;
     background: url("../images/statement.jpg") no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     color: #897567;

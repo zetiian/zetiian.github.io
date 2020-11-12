@@ -151,3 +151,9 @@
   margin-top: 10px;
 
 }
+.hover-zoom:hover{
+  -webkit-filter: blur(2px); 
+  filter: blur(1px);
+  transition: all 1s;
+  cursor: pointer;
+}

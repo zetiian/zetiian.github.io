@@ -27,10 +27,10 @@
             <div class="container navbar-container navbar-box">
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav navbar-left">
-                        <li><a href="#product">铜锣烧</a></li>
-                        <li><a href="#shops">门店</a></li>
-                        <li><a href="#about">关于</a></li>
-                        <li><a href="#statement">联系我们</a></li>
+                        <li><a href="#product" data-to="product">铜锣烧</a></li>
+                        <li><a href="#shops" data-to="shops">门店</a></li>
+                        <li><a href="#about" data-to="about">关于</a></li>
+                        <li><a href="#statement" data-to="statement">联系我们</a></li>
                     </ul>
                 </div>
                 <div class="nav navbar-nav navbar-center">
@@ -46,7 +46,7 @@
    
     <section id="product">
         <div class="swiper-container row">
-            <div class="swiper-wrapper">
+            <div class="swiper-wrapper wow fadeIn"  data-wow-delay="0.3s">
                 <div class="swiper-slide">
                     <div class="product-intro">
                         <img src="./images/products/red-bean.jpg" class="img-product" alt="" />
@@ -58,55 +58,55 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="product-intro">
-                        <img src="./images/products/red-bean.jpg" class="img-product" alt="" />
+                        <img src="./images/products/matcha-cream.jpg" class="img-product" alt="" />
                         <div class="product-name">
-                            <span>海盐芝士铜锣烧</span>
+                            <span>抹茶奶油铜锣烧</span>
                             <span>MATCHA CREAM</span>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="product-intro">
-                        <img src="./images/products/red-bean.jpg" class="img-product" alt="" />
+                        <img src="./images/products/cream-cheese.jpg" class="img-product" alt="" />
                         <div class="product-name">
-                            <span>原味红豆铜锣烧</span>
+                            <span>海盐芝士铜锣烧</span>
                             <span>CREAM CHEESE</span>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="product-intro">
-                        <img src="./images/products/red-bean.jpg" class="img-product" alt="" />
+                        <img src="./images/products/oreo.jpg" class="img-product" alt="" />
                         <div class="product-name">
-                            <span>原味红豆铜锣烧</span>
-                            <span>RED BEAN</span>
+                            <span>奥利奥芝士铜锣烧</span>
+                            <span>OREO CHEESE</span>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="product-intro">
-                        <img src="./images/products/red-bean.jpg" class="img-product" alt="" />
+                        <img src="./images/products/moka.jpg" class="img-product" alt="" />
                         <div class="product-name">
-                            <span>原味红豆铜锣烧</span>
-                            <span>RED BEAN</span>
+                            <span>摩卡铜锣烧</span>
+                            <span>MOKA</span>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="product-intro">
-                        <img src="./images/products/red-bean.jpg" class="img-product" alt="" />
+                        <img src="./images/products/peach.jpg" class="img-product" alt="" />
                         <div class="product-name">
-                            <span>原味红豆铜锣烧</span>
-                            <span>RED BEAN</span>
+                            <span>桃子</span>
+                            <span>PEACH</span>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="product-intro">
-                        <img src="./images/products/red-bean.jpg" class="img-product" alt="" />
+                        <img src="./images/products/coconut.jpg" class="img-product" alt="" />
                         <div class="product-name">
-                            <span>原味红豆铜锣烧</span>
-                            <span>RED BEAN</span>
+                            <span>椰子铜锣烧</span>
+                            <span>coconut</span>
                         </div>
                     </div>
                 </div>
@@ -117,7 +117,7 @@
     </section>
     <section id="brand">
         <div class="container">
-            <div class="row wow fadeIn" data-wow-delay="1s">
+            <div class="row wow fadeIn" data-wow-delay="0.5s">
                 <div class="col-md-12">
                     <h3>品牌动态</h3>
                 </div>
@@ -152,13 +152,13 @@
 
     <section id="shops">
         <div class="container">
-            <div class="row wow fadeIn" data-wow-delay="1s">
+            <div class="row wow fadeIn" data-wow-delay="0.5s">
                 <div class="col-md-12">
                     <h3>门店展示</h3>
                 </div>
                 <div class="col-md-4">
                     <div class="show-item shop">
-                        <img src="images/shops/gz.jpg" class="img-show" alt="" />
+                        <img src="images/shops/gz.jpg" class="img-show hover-zoom" alt="" />
                         <div class="shop-name">
                            <span>广州</span>
                            <span>天河南店</span>
@@ -167,7 +167,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="show-item shop">
-                        <img src="images/shops/sh-1.jpg" class="img-show" alt="" />
+                        <img src="images/shops/sh-1.jpg" class="img-show hover-zoom" alt="" />
                         <div class="shop-name">
                            <span>上海</span>
                            <span>富民路店</span>
@@ -176,7 +176,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="show-item shop">
-                        <img src="images/shops/sh-2.jpg" class="img-show" alt="" />
+                        <img src="images/shops/sh-2.jpg" class="img-show hover-zoom" alt="" />
                         <div class="shop-name">
                            <span>上海</span>
                            <span>国金中心店</span>
@@ -185,7 +185,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="show-item shop">
-                        <img src="images/shops/sz-1.jpg" class="img-show" alt="" />
+                        <img src="images/shops/sz-1.jpg" class="img-show hover-zoom" alt="" />
                         <div class="shop-name">
                            <span>深圳</span>
                            <span>壹方城店</span>
@@ -195,7 +195,7 @@
               
                 <div class="col-md-4">
                     <div class="show-item shop">
-                        <img src="images/shops/sz-2.jpg" class="img-show" alt="" />
+                        <img src="images/shops/sz-2.jpg" class="img-show hover-zoom" alt="" />
                         <div class="shop-name">
                            <span>深圳</span>
                            <span>万象天地店</span>
@@ -212,7 +212,7 @@
         <div class="lvjing about-us">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8  wow fadeInLeft">
+                    <div class="col-md-8  wow fadeInLeft"  data-wow-delay="0.5s">
                         <h3> 关于泽田本家 </h3>
                         <p>泽田本家铜锣烧专门店，传承日本神户大师藤野宽之。 </p>
                        
@@ -231,7 +231,7 @@
         <div class="lvjing ">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8  wow fadeInLeft statement-detail">
+                    <div class="col-md-8  statement-detail">
                         <p>目前网络上能搜索到的声称泽田本家铜锣烧官方网站的均属于假冒伪造，请大家不要相信页面内的任何信息。我司拥有「泽田本家」的完整商标权以及包装设计的注册，对于任何企业或个人侵犯注册商标专用权，抄袭包装设计的行为，我们都将予以打击，追究相关主体的法律责任。泽田本家唯一官网地址：www.zetianbenjia.com</p>
                        
                         <p>泽田本家统一直营化管理，我们目前不接受任何形式的加盟或代理！请大家不要相信任何加盟的信息和网上传播的联系方式。商务合作请邮件至：tiantian.wang@live.com
@@ -275,17 +275,12 @@
             </div>
         </div>
     </footer>
-    <div id="top">
-
-    </div>
+    <div id="top"> </div>
 
     <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.singlePageNav.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/swiper.min.js"></script>
- 
-  
     <script>
         $(function () {
             $(window).scroll(function() {
@@ -296,14 +291,23 @@
                  $("#top").fadeOut(100);
                 }
             });
-            
+
+                   
             $("#top").on("click", function() {
                 $('body,html').animate({ scrollTop: 0 }, 500);
             });
-            /*导航跳转效果插件*/
-            $('.nav').singlePageNav({
-                offset: 70
+
+
+            $(".banner-arrow").on("click", function() {
+                $('html,body').animate({scrollTop:$('#product').offset().top}, 800);
             });
+
+            $('.nav').on('click','a',function(e){
+                var target = e.target;
+                var id = $(target).data("to");
+                $('html,body').animate({scrollTop:$('#'+id).offset().top}, 800);
+            });
+           
             /*小屏幕导航点击关闭菜单*/
             $('.navbar-collapse a').click(function () {
                 $('.navbar-collapse').collapse('hide');

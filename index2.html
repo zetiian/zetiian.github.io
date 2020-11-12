@@ -275,7 +275,9 @@
             </div>
         </div>
     </footer>
+    <div id="top">
 
+    </div>
 
     <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -286,6 +288,18 @@
   
     <script>
         $(function () {
+            $(window).scroll(function() {
+                /* 判断滚动条 距离页面顶部的距离 100可以自定义*/
+                if($(window).scrollTop() > 100) {
+                    $("#top").fadeIn(100); 
+                } else {
+                 $("#top").fadeOut(100);
+                }
+            });
+            
+            $("#top").on("click", function() {
+                $('body,html').animate({ scrollTop: 0 }, 500);
+            });
             /*导航跳转效果插件*/
             $('.nav').singlePageNav({
                 offset: 70
@@ -295,10 +309,6 @@
                 $('.navbar-collapse').collapse('hide');
             });
             new WOW().init();
-
-         
-
-
         })
         var mySwiper = new Swiper ('.swiper-container', {
                 loop: true, // 循环模式选项

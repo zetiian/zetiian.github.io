@@ -21,7 +21,7 @@
 
     <section id="banner">
         
-        <img src="images/banner/banner.jpg" class="banner-img" alt="" />
+        <img src="images/banner/banner.png" class="banner-img" alt="" />
         <nav class="navbar navbar-default ">
             <div class="container navbar-container navbar-box">
                 <div class="col-md-4">
@@ -46,11 +46,11 @@
                 </div>
             </div>
         </nav>
-        <div class="container banner-word-box">
+        <!-- <div class="container banner-word-box">
             <div class="col-md-4 banner-word-item hidden-md hidden-xs hidden-sm">
                 <img src="images/banner/sawadadorayaki.png" class="banner-word" alt="" />
             </div>
-        </div>
+        </div> -->
         <img src="images/arrow-down.png" class="banner-arrow" alt="" />
         <div class="banner-slogen wow fadeInRight hidden-md hidden-xs hidden-sm" data-wow-delay="0.4s">只有时间是最好的佐料。</div>
     </section>
@@ -367,8 +367,10 @@
                 /* 判断滚动条 距离页面顶部的距离 100可以自定义*/
                 if ($(window).scrollTop() > 100) {
                     $("#top").fadeIn(100);
+                    $(".banner-arrow").fadeOut(100);
                 } else {
                     $("#top").fadeOut(100);
+                    $(".banner-arrow").fadeIn(50);
                 }
             });
 

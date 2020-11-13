@@ -17,7 +17,6 @@ body *{
 .navbar-container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
     position: relative;
 }
 .navbar-default{
@@ -27,13 +26,20 @@ body *{
     background-color: transparent;
     border: none;
     width: 100%;
+    z-index: 10;
 }
 
 .navbar-default .navbar-nav>li>a {
     height: 70px;
+    line-height: 70px;
     font-size: 17px;
     font-weight: 500;
     color: #fff;
+    padding: 0 15px;
+}
+.navbar-nav>li{
+  display: flex;
+  align-items: center;
 }
 .navbar-toggle{
     margin-top: 17px;
@@ -44,6 +50,9 @@ body *{
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #1C9982;
+}
+.navbar-right{
+  float: right;
 }
 /*home*/
 #banner{
@@ -320,6 +329,11 @@ footer{
   color: #fff; */
 }
 .navbar-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-center-logo{
   width: 128px;
   height: 75px;
   background-size: 100%;

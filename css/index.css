@@ -215,6 +215,7 @@ body *{
     bottom: 60px;
     left: 50%;
     transform: translateX(-50%);
+    /* width: 100%; */
   }
 #statement p{
     margin: 0;
@@ -236,6 +237,7 @@ footer{
 .qrcode{
     display: flex;
     justify-content: space-around;
+    height: 170px;
 }
 .footer-item{
     display: flex;
@@ -345,14 +347,23 @@ footer{
 .navbar-weibo{
   background-image: url('../images/banner/weibo.png');
 }
-
-.banner-word{
+.banner-word-box{
   position: absolute;
-  top: 50%;
-  transform: translate(-50%,-50%);
-  left: 20%;
-  max-width: 552px;
-  max-height: 300px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  height: 100%;
+  margin:  auto;
+  
+}
+
+.banner-word-item{
+  margin-top: 350px;
+}
+.banner-word{
+  max-width: 276px;
+  max-height: 149px;
+  height: auto;
 }
 .banner-arrow{
   position: absolute;
@@ -362,7 +373,7 @@ footer{
   width: 50px;
   height: 50px;
   cursor: pointer;
-  animation: upDown 1s linear infinite;
+  animation: upDown 1.8s linear infinite;
 }
 @keyframes upDown{
   0% {

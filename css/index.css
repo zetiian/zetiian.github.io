@@ -57,7 +57,7 @@ body *{
 /*home*/
 #banner{
     /* margin-top: 70px; */
-    /* background-image: url("../images/banner/banner.jpg"); */
+    /* background-image: url("../images/banner-img/banner.jpg"); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -340,7 +340,7 @@ footer{
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('../images/banner/logo.png');
+  background-image: url('../images/banner-img/logo.png');
 }
 .navbar-right{
   display: flex;
@@ -357,10 +357,10 @@ footer{
   position: relative;
 }
 .navbar-wechat{
-  background-image: url('../images/banner/wechat.png');
+  background-image: url('../images/banner-img/wechat.png');
 }
 .navbar-weibo{
-  background-image: url('../images/banner/weibo.png');
+  background-image: url('../images/banner-img/weibo.png');
 }
 .banner-word-box{
   position: absolute;

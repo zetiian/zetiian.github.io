@@ -1,272 +1,270 @@
-body{
-    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,PingFang SC,Hiragino Sans GB,"Microsoft YaHei",sans-serif;
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica,
+    Arial, PingFang SC, Hiragino Sans GB, "Microsoft YaHei", sans-serif;
 }
-body *{
-    box-sizing: border-box;
+body * {
+  box-sizing: border-box;
 }
-.mai-icon{
-    background: rgb(64, 210, 177);
-    color: #fff;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    line-height: 40px;
-    margin-right: 20px;
+.mai-icon {
+  background: rgb(64, 210, 177);
+  color: #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 20px;
 }
-.navbar-container{
-    display: flex;
-    align-items: center;
-    position: relative;
+.navbar-container {
+  display: flex;
+  align-items: center;
+  position: relative;
 }
-.navbar-default{
-    position: absolute;
-    top: 60px;
-    left: 0;
-    background-color: transparent;
-    border: none;
-    width: 100%;
-    z-index: 10;
+.navbar-default {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  z-index: 10;
 }
 
-.navbar-default .navbar-nav>li>a {
-    height: 70px;
-    line-height: 70px;
-    font-size: 17px;
-    font-weight: 500;
-    color: #fff;
-    padding: 0 15px;
+.navbar-default .navbar-nav > li > a {
+  height: 70px;
+  line-height: 70px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #fff;
+  padding: 0 15px;
 }
-.navbar-nav>li{
+.navbar-nav > li {
   display: flex;
   align-items: center;
 }
-.navbar-toggle{
-    margin-top: 17px;
+.navbar-toggle {
+  margin-top: 17px;
 }
 .navbar-default .navbar-toggle:hover {
-    border-color: #40D2B1;
-    background-color: rgb(69, 210, 184);
+  border-color: #40d2b1;
+  background-color: rgb(69, 210, 184);
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #1C9982;
+  background-color: #1c9982;
 }
-.navbar-right{
+.navbar-right {
   float: right;
 }
 /*home*/
-#banner{
-    /* margin-top: 70px; */
-    /* background-image: url("https://cdn.jsdelivr.net/gh/zetiian/zetiian.github.io@1.0/images/banner-img/banner.jpg"); */
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    color: #000;
-    text-align: center;
-    /* width: calc(100vw - 17px); */
-    width: 100%;
-    position: relative;
+#banner {
+  /* margin-top: 70px; */
+  /* background-image: url("https://cdn.jsdelivr.net/gh/zetiian/zetiian.github.io@1.0/images/banner-img/banner.jpg"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #000;
+  text-align: center;
+  /* width: calc(100vw - 17px); */
+  width: 100%;
+  position: relative;
 }
 
-.lvjing{
-    width: 100%;
-    height: 100%;
-    padding: 90px 0;
+.lvjing {
+  width: 100%;
+  height: 100%;
+  padding: 90px 0;
 }
-#banner h1{
-    font-weight: bold;
-    margin-top: 0;
-    margin-bottom: 25px;
+#banner h1 {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 25px;
 }
-#banner p{
-    font-weight: 400;
-    line-height: 35px;
+#banner p {
+  font-weight: 400;
+  line-height: 35px;
 }
-#banner img{
-    /* margin-top: 30px; */
-    display: inline-block;
+#banner img {
+  /* margin-top: 30px; */
+  display: inline-block;
 }
 /*product*/
-#product{
+#product {
 }
 
 /*bbs*/
-#bbs{
-    padding: 80px 0;
-    text-align: center;
+#bbs {
+  padding: 80px 0;
+  text-align: center;
 }
-#bbs .col-md-4{
-    padding: 15px;
+#bbs .col-md-4 {
+  padding: 15px;
 }
-#bbs .col-md-4:hover{
-    background: #f1f1f1;
-    box-shadow: 1px 1px 4px #ccc;
+#bbs .col-md-4:hover {
+  background: #f1f1f1;
+  box-shadow: 1px 1px 4px #ccc;
 }
-#bbs a{
-    color: #212121;
-    text-decoration: none;
+#bbs a {
+  color: #212121;
+  text-decoration: none;
 }
-#bbs img{
-    margin: 0 auto;
+#bbs img {
+  margin: 0 auto;
 }
-#bbs h3{
-    font-weight: bold;
+#bbs h3 {
+  font-weight: bold;
 }
-
-
 
 /*course*/
-#course{
-    background: #f8f8f8;
-    padding: 80px 0;
-    text-align: center;
+#course {
+  background: #f8f8f8;
+  padding: 80px 0;
+  text-align: center;
 }
-#course h2{
-    font-weight: bold;
-    padding-bottom: 60px;
+#course h2 {
+  font-weight: bold;
+  padding-bottom: 60px;
 }
-#course .col-md-3{
-    margin-bottom: 20px;
+#course .col-md-3 {
+  margin-bottom: 20px;
 }
 .course {
-    background: #ffffff;
+  background: #ffffff;
 }
-#course .btn{
-    background: transparent;
-    border: 1px solid #40D2B1;
-    border-radius: 0px;
-    color: #40D2B1;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    padding: 8px 40px;
-    transition: all 0.3s;
+#course .btn {
+  background: transparent;
+  border: 1px solid #40d2b1;
+  border-radius: 0px;
+  color: #40d2b1;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 8px 40px;
+  transition: all 0.3s;
 }
-#course .btn:hover{
-    background: #40D2B1;
-    color: #fff;
+#course .btn:hover {
+  background: #40d2b1;
+  color: #fff;
 }
 
 /*app*/
-#app{
-    padding: 80px 0;
+#app {
+  padding: 80px 0;
 }
-#app h2{
-    font-weight: bold;
-    padding-bottom: 30px;
+#app h2 {
+  font-weight: bold;
+  padding-bottom: 30px;
 }
-#app .btn{
-    margin: 10px 0;
-    background: rgb(64, 210, 177);
-    border-color: rgb(64, 210, 177);
-    border-radius: 0;
-    padding: 6px 30px;
-    transition: all 0.3s;
+#app .btn {
+  margin: 10px 0;
+  background: rgb(64, 210, 177);
+  border-color: rgb(64, 210, 177);
+  border-radius: 0;
+  padding: 6px 30px;
+  transition: all 0.3s;
 }
-#app .btn:hover{
-    background: rgb(44, 142, 120);
+#app .btn:hover {
+  background: rgb(44, 142, 120);
 }
 
 /*about*/
-#about{
-    color: #897567;
-    width: 100%;
-    height: 655px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #fff5e6;
-    position: relative;
+#about {
+  color: #897567;
+  width: 100%;
+  height: 655px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #fff5e6;
+  position: relative;
 }
-#about h3{
-    font-weight: bold;
-    margin-top: 0;
-    margin-bottom: 25px;
-    margin-bottom: 60px;
+#about h3 {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 25px;
+  margin-bottom: 60px;
 }
-#about p{
-    margin: 0;
-    font-size: 17px;
-    font-family: SourceHanSansCN;
-    font-weight: 400;
-    color: #897567;
-    line-height: 58px;
+#about p {
+  margin: 0;
+  font-size: 17px;
+  font-family: SourceHanSansCN;
+  font-weight: 400;
+  color: #897567;
+  line-height: 58px;
 }
-#about .hand-left{
-    height: 300px;
-    position: absolute;
-    left: -40%;
-    top: 10%;
+#about .hand-left {
+  height: 300px;
+  position: absolute;
+  left: -40%;
+  top: 10%;
 }
-#about .hand-right{
-    position: absolute;
-    height: 260px;
-    left:30%;
-    top: 10%;
+#about .hand-right {
+  position: absolute;
+  height: 260px;
+  left: 30%;
+  top: 10%;
 }
 /*statement*/
-#statement{
-    width: 100%;
-    height: 655px;
-    background: url("https://cdn.jsdelivr.net/gh/zetiian/zetiian.github.io@1.0/images/statement.jpg") no-repeat;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
+#statement {
+  width: 100%;
+  height: 655px;
+  background: url("https://cdn.jsdelivr.net/gh/zetiian/zetiian.github.io@1.0/images/statement.jpg")
+    no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
 }
-#statement h3{
-    font-weight: bold;
-    margin-top: 0;
-    margin-bottom: 25px;
-    margin-bottom: 60px;
+#statement h3 {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 25px;
+  margin-bottom: 60px;
 }
-.statement-detail{
-    position: absolute;
-    top: 300px;
-    left: 50%;
-    transform: translateX(-50%);
-    /* width: 100%; */
-  }
-#statement p{
-    margin: 0;
-    font-size: 17px;
-    font-family: SourceHanSansCN;
-    font-weight: 400;
-    color: #fff;
-    line-height: 2em;
-    margin-bottom: 50px;
+.statement-detail {
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  transform: translateX(-50%);
+  /* width: 100%; */
 }
-
+#statement p {
+  margin: 0;
+  font-size: 17px;
+  font-family: SourceHanSansCN;
+  font-weight: 400;
+  color: #fff;
+  line-height: 2em;
+  margin-bottom: 50px;
+}
 
 /*footer*/
-footer{
-    font-weight: 400;
-    text-align: center;
-    padding:20px;
+footer {
+  font-weight: 400;
+  text-align: center;
+  padding: 20px;
 }
-.qrcode{
-    display: flex;
-    justify-content: space-around;
-    height: 170px;
+.qrcode {
+  display: flex;
+  justify-content: space-around;
+  height: 170px;
 }
-.footer-item{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-   
+.footer-item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
-.footer-item.footer-name{
-    margin-top: 30px;
+.footer-item.footer-name {
+  margin-top: 30px;
 }
-.footer-item span{
-    margin-top: 10px;
-    font-size: 15px;
-    font-family: GlowSansSC;
-    font-weight: 400;
-    color: #282828;
-    line-height: 23px;
+.footer-item span {
+  margin-top: 10px;
+  font-size: 15px;
+  font-family: GlowSansSC;
+  font-weight: 400;
+  color: #282828;
+  line-height: 23px;
 }
-.hover-qrcode{
+.hover-qrcode {
   width: 150px;
   height: 150px;
   background-color: #fff;
@@ -279,8 +277,8 @@ footer{
   position: relative;
   opacity: 0;
 }
-.hover-qrcode::before{
-  content: '';
+.hover-qrcode::before {
+  content: "";
   position: absolute;
   top: -20px;
   left: 50%;
@@ -290,63 +288,63 @@ footer{
   border: 10px solid;
   border-color: transparent transparent #fff;
 }
-.hover-qrcode img{
-    width: 138px;
-    height: 138px;
+.hover-qrcode img {
+  width: 138px;
+  height: 138px;
 }
-.qrcode img{
-    width: 138px;
-    height: 138px;
+.qrcode img {
+  width: 138px;
+  height: 138px;
 }
-.qrcode .footer-logo{
-    width: 106px;
-    height: 61px;
+.qrcode .footer-logo {
+  width: 106px;
+  height: 61px;
 }
-#top{
-    width: 5em;
-    height: 5em;
-    position: fixed;
-    bottom: 60px;
-    right: 60px;
-    cursor: pointer;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    z-index: 100;
-    display: none;
-    background-image: url("https://cdn.jsdelivr.net/gh/zetiian/zetiian.github.io@1.0/images/top.png");
+#top {
+  width: 5em;
+  height: 5em;
+  position: fixed;
+  bottom: 60px;
+  right: 60px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 100;
+  display: none;
+  background-image: url("https://cdn.jsdelivr.net/gh/zetiian/zetiian.github.io@1.0/images/top.png");
 }
 
-.banner-img{
+.banner-img {
   width: 100%;
   height: auto;
   z-index: -1;
 }
-.navbar-box{
+.navbar-box {
   /* display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
   color: #fff; */
 }
-.navbar-center{
+.navbar-center {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.navbar-center-logo{
+.navbar-center-logo {
   width: 128px;
   height: 75px;
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('https://cdn.jsdelivr.net/gh/zetiian/zetiian.github.io@1.0/images/banner-img/logo.png');
+  background-image: url("https://cdn.jsdelivr.net/gh/zetiian/zetiian.github.io@1.0/images/banner-img/logo.png");
 }
-.navbar-right{
+.navbar-right {
   display: flex;
   justify-content: flex-end;
 }
-.navbar-icon{
+.navbar-icon {
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -356,31 +354,30 @@ footer{
   margin: 10px;
   position: relative;
 }
-.navbar-wechat{
-  background-image: url('https://cdn.jsdelivr.net/gh/zetiian/zetiian.github.io@1.0/images/banner-img/wechat.png');
+.navbar-wechat {
+  background-image: url("https://cdn.jsdelivr.net/gh/zetiian/zetiian.github.io@1.0/images/banner-img/wechat.png");
 }
-.navbar-weibo{
-  background-image: url('https://cdn.jsdelivr.net/gh/zetiian/zetiian.github.io@1.0/images/banner-img/weibo.png');
+.navbar-weibo {
+  background-image: url("https://cdn.jsdelivr.net/gh/zetiian/zetiian.github.io@1.0/images/banner-img/weibo.png");
 }
-.banner-word-box{
+.banner-word-box {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   top: 0;
   height: 100%;
-  margin:  auto;
-  
+  margin: auto;
 }
 
-.banner-word-item{
+.banner-word-item {
   margin-top: 350px;
 }
-.banner-word{
+.banner-word {
   max-width: 276px;
   max-height: 149px;
   height: auto;
 }
-.banner-arrow{
+.banner-arrow {
   position: absolute;
   top: 95vh;
   left: 50%;
@@ -390,7 +387,7 @@ footer{
   cursor: pointer;
   animation: upDown 1.5s linear infinite;
 }
-@keyframes upDown{
+@keyframes upDown {
   0% {
     top: 95vh;
   }
@@ -400,18 +397,16 @@ footer{
   100% {
     top: 95vh;
   }
- 
 }
-.banner-slogen{
+.banner-slogen {
   position: absolute;
   bottom: 10%;
   right: 10%;
   color: #fff;
   font-size: 14px;
   font-weight: bold;
-  color: #FFFFFF;
+  color: #ffffff;
   line-height: 39px;
-
 }
 
 .swiper-container {
@@ -419,17 +414,17 @@ footer{
   height: 100%;
   margin: 6px 0 0 0;
 }
-.swiper-slide{
+.swiper-slide {
   max-height: 478px;
-  padding-right:6px;
+  padding-right: 6px;
 }
-.product-intro{
+.product-intro {
   width: 100%;
   height: 100%;
   position: relative;
 }
 
-.product-name{
+.product-name {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -440,66 +435,65 @@ footer{
   position: absolute;
   bottom: 20px;
   left: 20px;
-
 }
 
-.img-product{
+.img-product {
   width: 100%;
   height: auto;
   margin: 0;
 }
-.swiper-button-prev{
-  width: 44px!important;
-  background-size: 44px 44px!important;
-  background-image: url('https://cdn.jsdelivr.net/gh/zetiian/zetiian.github.io@1.0/images/prev.png')!important;
+.swiper-button-prev {
+  width: 44px !important;
+  background-size: 44px 44px !important;
+  background-image: url("https://cdn.jsdelivr.net/gh/zetiian/zetiian.github.io@1.0/images/prev.png") !important;
 }
-.swiper-button-next{
-  width: 44px!important;
-  background-size: 44px 44px!important;
-  background-image: url('https://cdn.jsdelivr.net/gh/zetiian/zetiian.github.io@1.0/images/next.png')!important;
+.swiper-button-next {
+  width: 44px !important;
+  background-size: 44px 44px !important;
+  background-image: url("https://cdn.jsdelivr.net/gh/zetiian/zetiian.github.io@1.0/images/next.png") !important;
 }
-#brand,#shops {
+#brand,
+#shops {
   margin-top: 80px;
 }
-#brand h3,#shops h3{
+#brand h3,
+#shops h3 {
   font-size: 25px;
-  margin:0 0 25px;
+  margin: 0 0 25px;
   font-family: SourceHanSansCN;
   font-weight: bold;
   color: #897567;
 }
-.show-item{
+.show-item {
   position: relative;
   width: 100%;
 }
-.img-show{
+.img-show {
   width: 100%;
   height: auto;
 }
-.show-item .intro{
+.show-item .intro {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   height: 50px;
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
   font-size: 14px;
   line-height: 50px;
   padding-left: 30px;
   transition: all 1s;
 }
-.show-item:hover .intro{
-  background-color: rgba(0,0,0,.8);
-
+.show-item:hover .intro {
+  background-color: rgba(0, 0, 0, 0.8);
 }
-.show-item.shop{
+.show-item.shop {
   /* max-width: 469px; */
   max-height: 360px;
   margin-bottom: 100px;
-  
 }
-.shop-name{
+.shop-name {
   width: 28px;
   height: 14px;
   font-size: 14px;
@@ -513,16 +507,15 @@ footer{
   justify-content: flex-end;
   align-items: center;
   width: 100%;
-  position: absolute;    
-  bottom:-60px;
+  position: absolute;
+  bottom: -60px;
   left: 0;
-
 }
-.shop-name.center-pos{
+.shop-name.center-pos {
   bottom: 50%;
   transform: translateY(50%);
 }
-.shop-address{
+.shop-address {
   position: absolute;
   top: 0;
   left: 0;
@@ -539,7 +532,7 @@ footer{
   font-size: 14px;
   opacity: 0;
 }
-.shop-address-item{
+.shop-address-item {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
@@ -547,8 +540,7 @@ footer{
   height: 30%;
 }
 
-.col-md-4{
-    padding-left: 5px;
-    padding-right: 5px;
-
+.col-md-4 {
+  padding-left: 5px;
+  padding-right: 5px;
 }

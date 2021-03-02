@@ -256,13 +256,22 @@ footer {
 .footer-item.footer-name {
   margin-top: 30px;
 }
-.footer-item span {
+.footer-item span,.footer-item a {
   margin-top: 10px;
   font-size: 15px;
   font-family: GlowSansSC;
   font-weight: 400;
   color: #282828;
   line-height: 23px;
+}
+.footer-item.footer-open {
+
+}
+.footer-item.footer-open a{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .hover-qrcode {
   width: 150px;
